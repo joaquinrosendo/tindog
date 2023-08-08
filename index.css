@@ -1,5 +1,15 @@
 /*** FONTS ***/
+.dog-name, .dog-bio {
+    font-family: Poppins;
+}
 
+.dog-name {
+    font-weight: 600;
+}
+
+.dog-bio {
+    font-weight: 400;
+}
 
 /*** LAYOUTS ***/
 
@@ -31,6 +41,18 @@ nav {
 }
 
 .card-container {
+    height: 47em;
+}
+
+.dog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-card img {
+    width: 33em;
     height: 47em;
 }
 
